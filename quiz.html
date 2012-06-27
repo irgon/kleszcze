@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Author" content="Igor Rzegocki" />
+    <meta name="Copyright" content="Copyright (c) 2010 Igor Rzegocki" />
+
+    <meta name="Robots" content="index, follow" />
+    <meta name="Revisit-after" content="7 days" />
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link href="css/kleszcze.css" media="screen" rel="Stylesheet" type="text/css" />
+    <link href="css/jquery.lightbox.css" media="screen" rel="Stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.fancyzoom.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox.js"></script>
+    <script type="text/javascript" src="js/kleszcze.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="top">
+            <div id="logo"><a href="">Kleszczowe zapalenie mózgu - <strong>Zapobiegaj! Zaszczep się!</strong></a>r</div>
+            <ul id="menu">
+                <li><a href="">Dla specjalistów</a></li>
+                <li><a href="">Dla szkół</a></li>
+                <li><a href="">Dla pracodawców</a></li>
+                <li class="search">
+                    <form action="" method="get">
+                        <fieldset>
+                            <input type="text" name="q" value="Przeszukaj stronę" autocomplete="off" />
+                            <button type="submit" name="search">Szukaj</button>
+                        </fieldset>
+                    </form>
+                </li>
+            </ul>
+            <ul id="tabs">
+                <li class="first"><a href="">Strona główna</a></li>
+                <li><a href="">O kampanii</a></li>
+                <li><a href="">O kleszczach</a></li>
+                <li><a href="">O chorobie</a></li>
+                <li class="last"><a href="">Dla mediów</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="kleszcz"></div>
+            <div class="content">
+                <div class="body">
+                    <div class="left">
+                        <ul class="menu">
+                            <li><a href="">O kleszczach</a></li>
+                            <li><a href="">Biologia kleszczy</a></li>
+                            <li><a href="">Usuwanie kleszczy</a></li>
+                            <li><a href="">Kleszcze w Polsce</a></li>
+                            <li><a href="">Tereny zagrożone w Europie</a></li>
+                            <li><a href="">Co zrobić po ugryzieniu</a></li>
+                            <li class="selected"><a href="">Quiz - oceń ryzyko zakażenia</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <h2>Oceń ryzyko zakażenia</h2>
+                        <ul class="breadcrumbs">
+                            <li><a href="">kleszcze.info.pl</a> &raquo;</li>
+                            <li><a href="">Quiz</a></li>
+                        </ul>
+                        <div id="quiz">
+                            <ul>
+                                <li>
+                                    <cite>1 z 10</cite>
+                                    <h3>Pytanie 1</h3>
+                                    <p>Jesteś właścicielem psa lub kota, który ma dostęp do wybiegu na świeżym powietrzu?</p>
+                                    <label for="q1_yes" class="yes"><input type="radio" name="q1" value="yes" id="q1_yes" />Tak</label>
+                                    <label for="q1_no" class="no"><input type="radio" name="q1" value="no" id="q1_no" />Nie</label>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>2 z 10</cite>
+                                    <h3>Pytanie 2</h3>
+                                    <p>Chodzisz na spacery do parku?</p>
+                                    <label for="q2_yes" class="yes"><input type="radio" name="q2" value="yes" id="q2_yes" />Tak</label>
+                                    <label for="q2_no" class="no"><input type="radio" name="q2" value="no" id="q2_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>3 z 10</cite>
+                                    <h3>Pytanie 3</h3>
+                                    <p>Aktywnie spędzasz czas na świeżym powietrzu, na terenach zielonych (parki, lasy) np. uprawiając turystykę pieszą lub rowerową?</p>
+                                    <label for="q3_yes" class="yes"><input type="radio" name="q3" value="yes" id="q3_yes" />Tak</label>
+                                    <label for="q3_no" class="no"><input type="radio" name="q3" value="no" id="q3_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>4 z 10</cite>
+                                    <h3>Pytanie 4</h3>
+                                    <p>W sezonie letnim i jesiennym zbierasz grzyby lub jagody?</p>
+                                    <label for="q4_yes" class="yes"><input type="radio" name="q4" value="yes" id="q4_yes" />Tak</label>
+                                    <label for="q4_no" class="no"><input type="radio" name="q4" value="no" id="q4_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>5 z 10</cite>
+                                    <h3>Pytanie 5</h3>
+                                    <p>Spędzasz aktywnie czas polując lub wędkując?</p>
+                                    <label for="q5_yes" class="yes"><input type="radio" name="q5" value="yes" id="q5_yes" />Tak</label>
+                                    <label for="q5_no" class="no"><input type="radio" name="q5" value="no" id="q5_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>6 z 10</cite>
+                                    <h3>Pytanie 6</h3>
+                                    <p>Ty lub Twoje dzieci jeździcie na obozy i kolonie letnie?</p>
+                                    <label for="q6_yes" class="yes"><input type="radio" name="q6" value="yes" id="q6_yes" />Tak</label>
+                                    <label for="q6_no" class="no"><input type="radio" name="q6" value="no" id="q6_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>7 z 10</cite>
+                                    <h3>Pytanie 7</h3>
+                                    <p>Wyjeższasz na weekendy lub wakacje w tereny endemicznego występowania KZM np. Mazury (sprawdź na mapie aktualnie tereny endemiczne)?</p>
+                                    <label for="q7_yes" class="yes"><input type="radio" name="q7" value="yes" id="q7_yes" />Tak</label>
+                                    <label for="q7_no" class="no"><input type="radio" name="q7" value="no" id="q7_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>8 z 10</cite>
+                                    <h3>Pytanie 8</h3>
+                                    <p>Jesteś właścicielem działki, ogrodu lub spędzasz czas w tych miejscach np. grillując ze znajomymi?</p>
+                                    <label for="q8_yes" class="yes"><input type="radio" name="q8" value="yes" id="q8_yes" />Tak</label>
+                                    <label for="q8_no" class="no"><input type="radio" name="q8" value="no" id="q8_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>9 z 10</cite>
+                                    <h3>Pytanie 9</h3>
+                                    <p>Twoja praca lub hobby wymaga częstych pobytów na terenach zielonych?</p>
+                                    <label for="q9_yes" class="yes"><input type="radio" name="q9" value="yes" id="q9_yes" />Tak</label>
+                                    <label for="q9_no" class="no"><input type="radio" name="q9" value="no" id="q9_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li>
+                                    <cite>10 z 10</cite>
+                                    <h3>Pytanie 10</h3>
+                                    <p>Mieszkasz na terenach endemicznego występowania KZM?</p>
+                                    <label for="q10_yes" class="yes"><input type="radio" name="q10" value="yes" id="q10_yes" />Tak</label>
+                                    <label for="q10_no" class="no"><input type="radio" name="q10" value="no" id="q10_no" />Nie</label>
+                                    <a href="#" class="prev">Wstecz</a>
+                                    <a href="#" class="next">Następne pytanie</a>
+                                </li>
+                                <li class="result">
+                                    <h3>Wynik</h3>
+                                    <p class="high">W czasie spędzania czasu na świeżym powietrzu jesteś narażony na ukąszenie kleszcza. Zadbaj o ochronę przed KZM. Poproś lekarza o szczepienie.</p>
+                                    <p class="middle low">Pamiętaj, że liczba przypadków zgłaszanych przypadków KZM nie daje pełnego obrazu skali zagrożenia a mapa terenów endemicznych wymaga aktualizacji. Kleszcze bytują również w miejskich parkach i na terenach zielonych. Poproś lekarza o szczepienie przeciw KZM.</p>
+                                    <h4>Stopień ryzyka narażenia na KZM:</h4>
+                                    <img class="high" src="img/quiz-high.png" alt="Wysokie ryzyko" />
+                                    <img class="middle" src="img/quiz-middle.png" alt="Średnie ryzyko" />
+                                    <img class="low" src="img/quiz-low.png" alt="Niskie ryzyko" />
+                                    <strong class="high">Wysokie ryzyko</strong>
+                                    <strong class="middle">Średnie ryzyko</strong>
+                                    <strong class="low">Niskie ryzyko</strong>
+                                    <a href="#" class="again">Ponów test</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+    <div id="footer">
+        <div class="content">
+            <ul class="footer">
+                <li class="first"><a href="">Strona główna</a></li>
+                <li><a href="">Polityka prywatności</a></li>
+                <li><a href="">Kontakt</a></li>
+            </ul>
+            <address>
+                <cite>Projekt i realizacja: <a href="">Active Pharma</a></cite>
+                Wszelkie prawa zastrzeżone &copy; <a href="">Baxter polska sp z o.o.</a>
+            </address>
+        </div>
+    </div>
+</body>
+</html>
